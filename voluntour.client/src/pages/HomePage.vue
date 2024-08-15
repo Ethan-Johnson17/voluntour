@@ -13,7 +13,9 @@
             <h2>Volunteer with Voluntour</h2>
             <p>Join us in making a difference through community projects and voluntourism.</p>
             <div class="d-flex justify-content-center justify-content-lg-start">
-              <a href="#about" class="btn-get-started">Get Started</a>
+              <router-link class="btn-get-started" :to="{ name: 'GetInvolved' }">
+                <a>Get Involved</a>
+              </router-link>
               <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                 class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch
                   Video</span></a>
@@ -135,7 +137,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Our Services</h2>
+          <h2>Our Projects</h2>
           <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis
             omnis tiledo stran delop</p>
         </div>
