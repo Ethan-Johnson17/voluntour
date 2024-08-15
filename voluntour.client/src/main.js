@@ -8,6 +8,7 @@ import { router } from './router'
 import './utils/SocketProvider.js'
 
 const root = createApp(App)
+
 async function init() {
   await registerGlobalComponents(root)
   root

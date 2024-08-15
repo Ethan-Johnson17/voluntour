@@ -1,16 +1,19 @@
-
-  {
+{
     "name": "voluntour",
     "version": "1.0.0",
     "scripts": {
-      "build": "npm run setup:server",
-      "setup:app": "npm run setup:server && npm run setup:client",
-      "setup:client": "cd voluntour.client && npm i",
-      "setup:server": "cd voluntour && npm i",
-      "start": "node voluntour/index.js"
+        "build": "npm run setup:server",
+        "setup:app": "npm run setup:server && npm run setup:client",
+        "setup:client": "cd voluntour.client && npm i",
+        "setup:server": "cd voluntour && npm i",
+        "start": "node voluntour/index.js"
     },
     "engines": {
-      "node": "^18.12.1"
+        "node": "^18.12.1"
+    },
+    "dependencies": {
+        "@sanity/client": "^6.21.3",
+        "@sanity/image-url": "^1.0.2",
+        "vue-sanity": "^0.12.0"
     }
-  }
-  
+}

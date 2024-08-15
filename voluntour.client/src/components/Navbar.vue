@@ -69,8 +69,8 @@ function toggleTheme() {
               </ul>
             </li>
           </ul>
-          <router-link :to="{ name: 'Excursions' }">
-            <li>Play</li>
+          <router-link :to="{ name: 'Blog' }">
+            <li>Blog</li>
           </router-link>
           <li class="ps-1"><a href="#contact">Contact</a></li>
         </ul>
