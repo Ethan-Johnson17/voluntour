@@ -57,13 +57,18 @@ function toggleTheme() {
             Play
           </router-link>
           <ul>
-            <li class="dropdown"><a href="#"><span>Projects</span> <i
-                  class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <li class="dropdown">
+              <router-link :to="{ name: 'Projects' }">
+                <a href="#">
+                  <span>Projects</span>
+                  <i class="bi bi-chevron-down dropdown-indicator"></i>
+                </a>
+              </router-link>
               <ul>
-                <router-link :to="{ name: 'PastProjects' }">
+                <router-link :to="{ name: 'Projects' }">
                   <li>Past</li>
                 </router-link>
-                <router-link :to="{ name: 'UpcomingProjects' }">
+                <router-link :to="{ name: 'Projects' }">
                   <li>Upcoming</li>
                 </router-link>
               </ul>

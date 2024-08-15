@@ -31,9 +31,9 @@
       <div class="col-12 text-center">
         <h3>All Projects</h3>
       </div>
-      <div class="col-12 text-center" v-for="project in projects" :key="project.id">
+      <div class="col-12 pb-5 text-center" v-for="project in projects" :key="project.id">
         <img src="https://placehold.co/1000x300" />
-        <h3>{{ project.location }}</h3>
+        <h3 class="pt-3">{{ project.location }}</h3>
         <h5 :class="{ 'text-grey': pastProjects.includes(project) }">{{ project.startDate }}</h5>
         <router-link :to="`/projects/${project.slug.current}`">
           <button class="btn btn-primary">View</button>
@@ -44,9 +44,9 @@
       <div class="col-12 text-center">
         <h3>Upcoming Projects</h3>
       </div>
-      <div class="col-12 text-center" v-for="project in upcomingProjects" :key="project.id">
+      <div class="col-12 pb-5 text-center" v-for="project in upcomingProjects" :key="project.id">
         <img src="https://placehold.co/1000x300" />
-        <h3>{{ project.location }}</h3>
+        <h3 class="pt-3">{{ project.location }}</h3>
         <h5>{{ project.startDate }}</h5>
         <router-link :to="`/projects/${project.slug.current}`">
           <button class="btn btn-primary">View</button>
@@ -57,9 +57,9 @@
       <div class="col-12 text-center">
         <h3>Current Projects</h3>
       </div>
-      <div class="col-12 text-center" v-for="project in currentProjects" :key="project.id">
+      <div class="col-12 pb-5 text-center" v-for="project in currentProjects" :key="project.id">
         <img src="https://placehold.co/1000x300" />
-        <h3>{{ project.location }}</h3>
+        <h3 class="pt-3">{{ project.location }}</h3>
         <h5>{{ project.startDate }}</h5>
         <router-link :to="`/projects/${project.slug.current}`">
           <button class="btn btn-primary">View</button>
@@ -70,9 +70,9 @@
       <div class="col-12 text-center">
         <h3>Past Projects</h3>
       </div>
-      <div class="col-12 text-center" v-for="project in pastProjects" :key="project.id">
+      <div class="col-12 pb-5 text-center" v-for="project in pastProjects" :key="project.id">
         <img src="https://placehold.co/1000x300" />
-        <h3>{{ project.location }}</h3>
+        <h3 class="pt-3">{{ project.location }}</h3>
         <h5 class="text-gray">{{ project.startDate }}</h5>
         <router-link :to="`/projects/${project.slug.current}`">
           <button class="btn btn-primary">View</button>

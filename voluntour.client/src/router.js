@@ -22,14 +22,9 @@ const routes = [
     component: loadPage('ExcursionsPage')
   },
   {
-    path: '/projects/upcoming',
-    name: 'UpcomingProjects',
-    component: loadPage('UpcomingProjectsPage')
-  },
-  {
-    path: '/projects/past',
-    name: 'PastProjects',
-    component: loadPage('PastProjectsPage')
+    path: '/projects',
+    name: 'Projects',
+    component: loadPage('ProjectsPage')
   },
   {
     path: '/getInvolved',
@@ -39,7 +34,7 @@ const routes = [
   {
     path: '/blog',
     name: 'Blog',
-    component: loadPage('BlogPage')
+    component: loadPage('BlogPage'),
   },
   {
     path: '/account',
