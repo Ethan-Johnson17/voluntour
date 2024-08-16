@@ -104,7 +104,7 @@
             <!-- <img src="../assets/img/DR2.jpg" class="img-fluid rounded-4" alt=""> -->
 
             <div class="position-relative mt-5">
-              <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
+              <img src="" class="img-fluid rounded-4" alt="">
               <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
             </div>
           </div>
@@ -238,7 +238,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Saul Goodman</h3>
                       <h4>Ceo &amp; Founder</h4>
@@ -262,7 +262,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Sara Wilsson</h3>
                       <h4>Designer</h4>
@@ -286,7 +286,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Jena Karlis</h3>
                       <h4>Store Owner</h4>
@@ -310,7 +310,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Matt Brandon</h3>
                       <h4>Freelancer</h4>
@@ -334,7 +334,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>John Larson</h3>
                       <h4>Entrepreneur</h4>
